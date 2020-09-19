@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+    z-index: 10
+}
+
+header.scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
+}
+
+#slidy-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  #slidy-container figcaption {
+    font-size: 1rem !important;
+  }
+}
+
+.servicelist {
+  margin: 0;
+  padding: 0;
+  list-style-type: armenian;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.servicelist.li {
+  display: grid;
+  grid-template-columns: 0 1fr;
+  grid-gap: 1.75em;
+  align-items: start;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
 @tailwind utilities;

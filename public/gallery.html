@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="/build/tailwind.css">
+    <title>Document</title>
+    <style>
+        #menu-toggle:checked+#menu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header class="lg:px-16 px-6 bg-red-300 text-white flex flex-wrap items-center lg:py-0 py-2">
+        <div class="flex-1 flex justify-between items-center animate-pulse">
+            <a href="index.html">
+                <p>My Logo Here</p>
+            </a>
+        </div>
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+            <svg width="40" height="30" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="fill-current">
+                <rect width="45" height="6" rx="2" fill="white" />
+                <rect y="17" width="50" height="6" rx="2" fill="white" />
+                <rect y="34" width="35" height="6" rx="2" fill="white" />
+            </svg>
+        </label>
+        <input type="checkbox" name="" id="menu-toggle" class="hidden">
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+            <nav>
+                <ul class="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-8">
+                    <li>
+                        
+                        <a href="index.html"
+                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">About</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html"
+                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Bylaws</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <h1 class="text-2xl font-medium">Gallery</h1>
+    <div class="px-4 lg:flex lg:flex-wrap">
+        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
+            <img src="IMG-20180706-WA0011.jpg" alt="" class="">
+        </div>
+        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
+            <img src="IMG-20180706-WA0013.jpg" alt="" class="">
+        </div>
+        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
+            <img src="IMG-20180706-WA0012.jpg" alt="" class="">
+        </div>
+        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
+            <img src="home.jpg" alt="" class="">
+        </div>
+        </div>
+</body>
+</html>
