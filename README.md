@@ -1,4 +1,4 @@
-# Tailwind CSS Playground
+# A Website made usubg Tailwind CSS
 
 A simple starter project for playing around with Tailwind in a proper PostCSS environment.
 
