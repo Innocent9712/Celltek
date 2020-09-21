@@ -1,6 +1,7 @@
-# A Website made usubg Tailwind CSS
+# Celltek Website Repository
+# Made with Tailwind CSS!
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+This package uses a PostCSS environment.
 
 To get started:
 
