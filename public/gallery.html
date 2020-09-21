@@ -12,10 +12,10 @@
     </style>
 </head>
 <body>
-    <header class="lg:px-16 px-6 bg-red-300 text-white flex flex-wrap items-center lg:py-0 py-2">
+    <header class="lg:px-16 px-6 bg-red-200 text-white flex flex-wrap items-center lg:py-0 py-2">
         <div class="flex-1 flex justify-between items-center animate-pulse">
             <a href="index.html">
-                <p>My Logo Here</p>
+                <img class="w-32" src="img/Celltek_Logo_final-05-04-removebg-preview.png" alt="">
             </a>
         </div>
         <label for="menu-toggle" class="cursor-pointer lg:hidden block">
@@ -29,7 +29,7 @@
         <input type="checkbox" name="" id="menu-toggle" class="hidden">
         <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
             <nav>
-                <ul class="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-8">
+                <ul class="lg:flex items-center justify-between text-lg lg:text-xl font-medium text-white pt-4 lg:pt-8">
                     <li>
                         
                         <a href="index.html"
@@ -49,10 +49,6 @@
                     </li>
                     <li>
                         <a href="#"
-                            class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Services</a>
-                    </li>
-                    <li>
-                        <a href="#"
                             class="lg:p-4 py-3 px-5 py-1 px-5 block border-b-2 border-transparent hover:border-white">Blog</a>
                     </li>
                 </ul>
@@ -60,20 +56,49 @@
         </div>
         </div>
     </header>
-    <h1 class="text-2xl font-medium">Gallery</h1>
-    <div class="px-4 lg:flex lg:flex-wrap">
-        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
-            <img src="IMG-20180706-WA0011.jpg" alt="" class="">
-        </div>
-        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
-            <img src="IMG-20180706-WA0013.jpg" alt="" class="">
-        </div>
-        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
-            <img src="IMG-20180706-WA0012.jpg" alt="" class="">
-        </div>
-        <div class="max-w-1xl bg-white rounded-lg mx-8 my-4">
-            <img src="home.jpg" alt="" class="">
-        </div>
-        </div>
+    <main class="flex flex-col items-center">
+        <h1 class="text-2xl font-medium">Gallery</h1>
+        <ul class="gallery flex flex-col flex-wrap lg:flex-row w-10/12 lg:px-24">
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+            <li class="flex flex-col items-center"><img src="img/IKD_0463.jpg" alt=""><caption>Null</caption></li><br><hr><br>
+        </ul>
+    </main>
+            <footer class="bg-red-300 h-32 mt-20 flex flex-col items-center text-white h-full">
+                <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-around items-stretch pt-6 w-4/5">
+
+                    <ul class="socials flex justify-evenly text-4xl lg:flex-col">
+                        <a href="#">
+                            <li><i class="fab fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fab fa-instagram"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fab fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                        </a>
+                    </ul>
+                    <p class="lg:w-3/5">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Cupiditate illum, impedit iure in voluptas recusandae. 
+                        Iste voluptate itaque alias molestiae eum minus ipsam enim nesciunt provident, 
+                        repudiandae nostrum, non sed.
+
+                    </p>
+                </div>
+                <p class="my-3">&copy; Celltek 2020</p>
+            </footer>
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/7c81e5d5e3.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+
 #menu-toggle:checked + #menu {
   display: block;
 }
@@ -19,15 +20,6 @@ html {
 
 body {
   font-size: 1.6rem;
-}
-
-header {
-    z-index: 10
-}
-
-header.scrolled {
-    @apply shadow-2xl;
-    border-bottom: 0px;
 }
 
 #slidy-container {
@@ -50,13 +42,21 @@ header.scrolled {
   grid-gap: 1rem;
 }
 
-.servicelist.li {
+/* .servicelist>li {
   display: grid;
   grid-template-columns: 0 1fr;
   grid-gap: 1.75em;
   align-items: start;
   font-size: 1.5rem;
   line-height: 1.25;
-}
+} */
 
+
+/* Gallery */
+.gallery>li>{
+  border: 3px solid rgba(rgb(231, 200, 200), green, blue, 0.8);
+}
+.gallery>li>img {
+  border-radius: 2%;
+}
 @tailwind utilities;
